@@ -60,4 +60,5 @@ pr_prefix: "Bug #12345"
 
 # allow to close stale PRs
 # default: True
+# default: True
 close_prs: True
