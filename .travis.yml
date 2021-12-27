@@ -2,9 +2,9 @@ language: python
 python:
   -3.10.0b3
 install:
-  - pip install -q -r requirements-dev.txt codecov
+  - pip install -q -r requirements-dev.txt
 script:
   -flake8
-  -pytest libpythonpro --cov=libpythonpro
+  -pytest libpythonpro --cov=libpython
 after_success:
   -codecov
